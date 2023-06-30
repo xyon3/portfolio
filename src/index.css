@@ -19,6 +19,7 @@ p {
 }
 
 span,
-button {
+button,
+input {
     font-family: Questrial, sans-serif;
 }
