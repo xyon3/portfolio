@@ -1,5 +1,4 @@
-import { EyeOpenIcon, CodeIcon } from "@radix-ui/react-icons"
-
+import { EyeOpenIcon, CodeIcon } from '@radix-ui/react-icons';
 
 type ProjectInfo = {
     title: string;
@@ -25,8 +24,18 @@ function ProjectCard(props: ProjectInfo): JSX.Element {
                 </p>
             </div>
             <div className="flex justify-around p-2 text-base">
-                <a className="flex items-center text-blue-500" href={liveTest}> <span>Live Test</span> &nbsp; <EyeOpenIcon/></a> |
-                <a className="flex items-center text-green-500" href={sourceCode}> <span>Source</span> &nbsp; <CodeIcon /> </a>
+                <a className="flex items-center text-blue-500" href={liveTest}>
+                    {' '}
+                    <span>Live Test</span> &nbsp; <EyeOpenIcon />
+                </a>{' '}
+                |
+                <a
+                    className="flex items-center text-green-500"
+                    href={sourceCode}
+                >
+                    {' '}
+                    <span>Source</span> &nbsp; <CodeIcon />{' '}
+                </a>
             </div>
         </div>
     );
