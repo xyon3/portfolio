@@ -18,7 +18,7 @@ export default function Contact(): JSX.Element {
     }, []);
 
     return (
-        <section className="h-screen grid grid-cols-2 items-center gap-8">
+        <section id="contact" className="h-screen grid grid-cols-2 items-center gap-8">
             <div>
                 <p className="text-6xl w-96">LET'S MAKE SOMETHING COOL!</p>
                 <span className="flex pt-2">

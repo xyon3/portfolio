@@ -9,7 +9,7 @@ export default function About(): JSX.Element {
     ];
 
     return (
-        <section className="h-screen flex flex-col justify-center items-center text-xl">
+        <section id="about" className="h-screen flex flex-col justify-center items-center text-xl">
             {info[0]}
             <div className="absolute top-[190vh]">button button button</div>
         </section>
