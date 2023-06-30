@@ -75,7 +75,7 @@ export default function Projects(): JSX.Element {
 
     return (
         <section className="h-screen flex flex-col justify-center items-center">
-            <div className="grid grid-cols-4 px-24 gap-6">
+            <div className={`grid grid-cols-${projects.length } px-24 gap-6`}>
                 {projects.map((e) => {
                     return (
                         <ProjectCard
@@ -88,6 +88,7 @@ export default function Projects(): JSX.Element {
                     );
                 })}
             </div>
+
             <div className="p-6 text-sm">
                 <span className="text-red-500">Note: </span> Please give the
                 projects at least thirty (30) seconds to spin up, since all of
