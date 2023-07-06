@@ -9,7 +9,7 @@ function App() {
             <header className="flex justify-between items-center p-4 px-10 sticky top-0 z-50 backdrop-blur-md border">
                 <div>O</div>
                 <ul className="flex ml-24">
-                    <a href="#home"><li className="px-9">Home</li></a>
+                    <a href="#"><li className="px-9">Home</li></a>
                     <a href="#about"><li className="px-9">About</li></a>
                     <a href="#projects"><li className="px-9">Projects</li></a>
                     <a href="#contact"><li className="px-9">Contact</li></a>
